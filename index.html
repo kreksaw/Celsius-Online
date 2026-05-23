@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Celsius-Online — Game studio since 2004, part of Plug In Digital.">
+  <title>Celsius-Online</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Sans+Arabic:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#home">Celsius<span>-Online</span></a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#home" data-i18n="nav.home">Home</a></li>
+        <li class="nav-dropdown">
+          <button class="nav-dropdown-toggle" type="button" aria-expanded="false" data-i18n="nav.projects">
+            Our Projects
+          </button>
+          <ul class="nav-dropdown-menu">
+            <li><a href="#project-rk" data-i18n="projects.rk.title">Renaissance Kingdoms</a></li>
+            <li><a href="#project-mutants" data-i18n="projects.mutants.title">Mutants: Genetic Gladiators</a></li>
+            <li><a href="#project-werewolves" data-i18n="projects.werewolves.title">The Werewolves of Millers Hollow Online</a></li>
+            <li><a href="#project-masterchef" data-i18n="projects.masterchef.title">MasterChef: Let's Cook!</a></li>
+            <li><a href="#project-coming-soon" data-i18n="projects.coming.nav">Coming soon</a></li>
+          </ul>
+        </li>
+        <li><a href="b2b.html">b2b</a></li>
+        <li class="lang-switch" aria-label="Language">
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" class="lang-btn" data-lang="fr" aria-pressed="false">FR</button>
+          <button type="button" class="lang-btn" data-lang="ar" aria-pressed="false">AR</button>
+          <button type="button" class="lang-btn" data-lang="zh" aria-pressed="false">中文</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg"></div>
+      <div class="container hero-content">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Studio with an indie heart</p>
+        <div class="hero-slides" aria-live="polite">
+          <h1 class="hero-slide active" data-i18n="hero.slide1">Game creators since 2004</h1>
+          <h1 class="hero-slide" data-i18n="hero.slide2">A story of expertise and passion</h1>
+          <h1 class="hero-slide" data-i18n="hero.slide3">International successes</h1>
+        </div>
+        <p class="hero-text" data-i18n="hero.text">
+          Celsius-Online has been crafting video games since 2004. Part of Plug In Digital since 2023, we carry the same
+          passion, player-first mindset and demanding craft that shaped our indie roots.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary" data-i18n="hero.cta.primary">Discover our games</a>
+          <a href="#studio" class="btn btn-ghost" data-i18n="hero.cta.secondary">Our story</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <strong>2004</strong>
+            <span data-i18n="hero.stat1">Studio founded</span>
+          </div>
+          <div class="stat">
+            <strong>30</strong>
+            <span data-i18n="hero.stat2">Passionate team members</span>
+          </div>
+          <div class="stat">
+            <strong>50M+</strong>
+            <span data-i18n="hero.stat3">Downloads across our games</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow" data-i18n="projects.eyebrow">Our projects</p>
+          <h2 data-i18n="projects.heading">Games built to last</h2>
+          <p class="section-lead" data-i18n="projects.lead">
+            From browser MMOs to mobile hits, we create immersive worlds played by millions around the globe.
+          </p>
+        </div>
+      </div>
+
+      <div class="project-list">
+        <article class="project-card" id="project-rk">
+          <div class="project-visual" style="background-image: url('https://www.celsius-online.com/img/projet2_fond.jpg');">
+            <img src="https://www.celsius-online.com/img/projet2_logo_UK.png" alt="" class="project-logo">
+          </div>
+          <div class="container project-body">
+            <p class="project-tag" data-i18n="projects.rk.tag">Cross-platform Web &amp; Mobile MMO</p>
+            <h3 data-i18n="projects.rk.title">Renaissance Kingdoms</h3>
+            <p data-i18n="projects.rk.desc">
+              Translated into 26 languages, Renaissance Kingdoms is Europe's leading cross-platform Web &amp; Mobile
+              MMO role-playing and management game. In this persistent simulation of 15th-century Europe, you play a character
+              taking part in the economic, political and social life of your village, county and kingdom.
+            </p>
+            <p class="project-stats" data-i18n="projects.rk.stats">
+              21+ years live · LiveOps activity as intense as ever
+            </p>
+            <a href="http://www.lesroyaumes.com/Landing.php?ref=926" class="btn btn-primary" target="_blank" rel="noopener noreferrer" data-i18n="projects.cta">
+              Access the site
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card project-card-alt" id="project-mutants">
+          <div class="project-visual" style="background-image: url('https://www.celsius-online.com/img/projet15_fond.jpg');">
+            <img src="https://www.celsius-online.com/img/projet15_logo.png" alt="" class="project-logo">
+          </div>
+          <div class="container project-body">
+            <p class="project-tag" data-i18n="projects.mutants.tag">Cross-platform Facebook &amp; mobile game</p>
+            <h3 data-i18n="projects.mutants.title">Mutants: Genetic Gladiators</h3>
+            <p data-i18n="projects.mutants.desc">
+              Mutants: Genetic Gladiators is a cross-platform Facebook and mobile game. Become the ultimate psy captain,
+              compete against players worldwide, climb the ladder and win magnificent prizes. Team up with friends to build
+              a strong roster of allies.
+            </p>
+            <p class="project-stats" data-i18n="projects.mutants.stats">
+              8+ years live · 25M+ downloads
+            </p>
+            <a href="http://mutants.kobojo.com/" class="btn btn-primary" target="_blank" rel="noopener noreferrer" data-i18n="projects.cta">
+              Access the site
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card" id="project-werewolves">
+          <div class="project-visual project-visual-cover" style="background-image: url('img/project-werewolves.png');"></div>
+          <div class="container project-body">
+            <p class="project-tag" data-i18n="projects.werewolves.tag">Mobile</p>
+            <h3 data-i18n="projects.werewolves.title">The Werewolves of Millers Hollow Online</h3>
+            <p data-i18n="projects.werewolves.desc">
+              Official mobile adaptation of the cult social deduction board game, allowing 16 players to investigate,
+              debate &amp; manipulate each other in hidden-role matches.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card project-card-alt" id="project-masterchef">
+          <div class="project-visual project-visual-cover" style="background-image: url('img/project-masterchef.png');"></div>
+          <div class="container project-body">
+            <p class="project-tag" data-i18n="projects.masterchef.tag">Apple Arcade exclusive</p>
+            <h3 data-i18n="projects.masterchef.title">MasterChef: Let's Cook!</h3>
+            <p data-i18n="projects.masterchef.desc">
+              An Apple Arcade cooking competition where you pick ingredients, prep and cook dishes in fast-paced mini-games,
+              plate with style and serve them to judges while competing against players worldwide. Unlock 120+ recipes,
+              customize your chef and upgrade your kitchen gear.
+            </p>
+            <p class="project-stats" data-i18n="projects.masterchef.stats">
+              1.3M+ downloads, 6 months "App Top 10" after release, 2 years of Live Operations
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card project-coming-soon" id="project-coming-soon">
+          <div class="project-visual project-visual-soon">
+            <span class="soon-badge" data-i18n="projects.coming.badge">Coming soon</span>
+          </div>
+          <div class="container project-body">
+            <p class="project-tag" data-i18n="projects.coming.tag">Cross-platform real-time party game</p>
+            <h3 data-i18n="projects.coming.title">A new game is on the way</h3>
+            <p class="coming-hook" data-i18n="projects.coming.hook">
+              Cross-platform real-time party game blending social deduction, investigation, and hidden-identity gameplay for 8 to 10 players.
+            </p>
+            <p class="project-stats" data-i18n="projects.coming.stats">
+              Cross-platform real-time Unity-based client for PC and mobile
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="studio">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow" data-i18n="studio.eyebrow">The studio</p>
+          <h2 data-i18n="studio.heading">Timeline</h2>
+        </div>
+        <ol class="timeline">
+          <li class="timeline-item">
+            <time datetime="2025">2025</time>
+            <p data-i18n-html="studio.t2025"></p>
+          </li>
+          <li class="timeline-item">
+            <time datetime="2023">2023</time>
+            <p data-i18n-html="studio.t2023"></p>
+          </li>
+          <li class="timeline-item">
+            <time datetime="2021">2021</time>
+            <p data-i18n="studio.t2021a">Development of Master Chef: Let's Cook for Apple Arcade</p>
+          </li>
+          <li class="timeline-item">
+            <time datetime="2021">2021</time>
+            <p data-i18n="studio.t2021b">The Celsius-Online team grows to over 50 enthusiasts</p>
+          </li>
+          <li class="timeline-item">
+            <time datetime="2020">2020</time>
+            <p data-i18n="studio.t2020">Development of an HTML5 version of Mutants: Genetic Gladiators to replace the Flash version</p>
+          </li>
+          <li class="timeline-item">
+            <time datetime="2019">2019</time>
+            <p data-i18n="studio.t2019">Celsius-Online acquires the studio 'Vertical'</p>
+          </li>
+          <li class="timeline-item">
+            <time datetime="2018">2018</time>
+            <p data-i18n="studio.t2018">Celsius-Online acquires Loups-Garous En Ligne</p>
+          </li>
+          <li class="timeline-item">
+            <time datetime="2017">2017</time>
+            <p data-i18n="studio.t2017">Celsius-Online acquires Kobojo and Ouat Entertainment</p>
+          </li>
+          <li class="timeline-item">
+            <time datetime="2016">2016</time>
+            <p data-i18n="studio.t2016">Launch of Tropical Wars and Celsius Heroes</p>
+          </li>
+          <li class="timeline-item">
+            <time datetime="2014">2014</time>
+            <p data-i18n="studio.t2014">Best Web and Social Game Ping Award for March of History</p>
+          </li>
+          <li class="timeline-item">
+            <time datetime="2013">2013</time>
+            <p data-i18n="studio.t2013a">Launch of March of History</p>
+          </li>
+          <li class="timeline-item">
+            <time datetime="2013">2013</time>
+            <p data-i18n="studio.t2013b">Patent registration for JavaScript technologies</p>
+          </li>
+          <li class="timeline-item">
+            <time datetime="2004">2004</time>
+            <p data-i18n="studio.t2004">Creation of the studio and launch of Renaissance Kingdoms</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="logo" href="#home">Celsius<span>-Online</span></a>
+      <p class="footer-copy">&copy; 2004–2026 Celsius-Online</p>
+      <a class="footer-email" href="mailto:contact@celsius-online.com">contact@celsius-online.com</a>
+    </div>
+  </footer>
+
+  <script src="locales-ar-zh.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

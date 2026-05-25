@@ -207,12 +207,26 @@ p {
   height: 50px;
 }
 
+.logo-img-b2b img {
+  height: 38px;
+}
+
+.logo-img-b2b.logo-img-footer img {
+  height: 34px;
+}
+
 @media (max-width: 720px) {
   .logo-img img {
     height: 40px;
   }
   .logo-img-footer img {
     height: 36px;
+  }
+  .logo-img-b2b img {
+    height: 29px;
+  }
+  .logo-img-b2b.logo-img-footer img {
+    height: 27px;
   }
 }
 

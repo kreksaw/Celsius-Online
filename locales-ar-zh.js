@@ -43,7 +43,7 @@ window.CELSIUS_LOCALES = {
     "projects.coming.tag": "لعبة جماعية متعددة المنصات في الوقت الفعلي",
     "projects.coming.hook":
       "لعبة جماعية متعددة المنصات في الوقت الفعلي، تجمع بين الاستنتاج الاجتماعي والتحقيق وأسلوب اللعب القائم على الهويات الخفية، لعدد من 8 إلى 10 لاعبين.",
-    "projects.coming.stats": "عميل Unity متعدد المنصات في الوقت الفعلي للحاسوب والهاتف المحمول",
+    "projects.coming.stats": "لعبة متعددة المنصات في الوقت الفعلي للحاسوب والهاتف المحمول",
     "projects.cta": "زيارة الموقع",
     "studio.eyebrow": "الاستوديو",
     "studio.heading": "الخط الزمني",
@@ -52,9 +52,9 @@ window.CELSIUS_LOCALES = {
     "studio.t2023":
       'انضمام Celsius-Online إلى مجموعة <a href="https://plugindigital.com/" target="_blank" rel="noopener noreferrer">Plug In Digital</a>. ناشر وموزّع فرنسي رائد للألعاب المستقلة على الحاسوب والأجهزة المنزلية والهاتف المحمول.',
     "studio.t2021a": "تطوير Master Chef: Let's Cook لمنصة Apple Arcade",
-    "studio.t2021b": "نمو فريق Celsius-Online ليتجاوز 50 شغوفاً",
     "studio.t2020": "تطوير نسخة HTML5 من Mutants: Genetic Gladiators لتحلّ محل نسخة Flash",
-    "studio.t2019": "استحواذ Celsius-Online على استوديو Vertical",
+    "studio.t2019":
+      'استحواذ Celsius-Online على استوديو <span class="text-accent">Vertical</span>. تأسّس في مدينة ليل عام 2012، وذاع صيته عام 2016 بفضل لعبة Tropical Wars التي نشرتها Tilting Point وأبرزتها Apple على نطاق واسع عند إطلاقها.',
     "studio.t2018": "استحواذ Celsius-Online على Loups-Garous En Ligne",
     "studio.t2017": "استحواذ Celsius-Online على Kobojo و Ouat Entertainment",
     "studio.t2016": "إطلاق Tropical Wars و Celsius Heroes",
@@ -187,7 +187,7 @@ window.CELSIUS_LOCALES = {
     "projects.coming.tag": "跨平台实时派对游戏",
     "projects.coming.hook":
       "一款跨平台的实时派对游戏，融合社交推理、调查与隐藏身份玩法，支持 8 至 10 名玩家。",
-    "projects.coming.stats": "基于 Unity 的跨平台实时客户端，支持 PC 与移动端",
+    "projects.coming.stats": "面向 PC 与移动端的跨平台实时游戏",
     "projects.cta": "访问网站",
     "studio.eyebrow": "工作室",
     "studio.heading": "时间线",
@@ -196,9 +196,9 @@ window.CELSIUS_LOCALES = {
     "studio.t2023":
       'Celsius-Online 加入 <a href="https://plugindigital.com/" target="_blank" rel="noopener noreferrer">Plug In Digital</a> 集团。一家在 PC、主机与移动端深耕独立游戏的法国知名发行与数字分销商。',
     "studio.t2021a": "为 Apple Arcade 开发 Master Chef: Let's Cook",
-    "studio.t2021b": "Celsius-Online 团队规模突破 50 人",
     "studio.t2020": "开发 Mutants: Genetic Gladiators 的 HTML5 版本以替换 Flash 版本",
-    "studio.t2019": "Celsius-Online 收购 Vertical 工作室",
+    "studio.t2019":
+      'Celsius-Online 收购 <span class="text-accent">Vertical</span> 工作室。该工作室于 2012 年在里尔成立，并于 2016 年凭借由 Tilting Point 发行、Apple 在发布时大力推介的 Tropical Wars 一举成名。',
     "studio.t2018": "Celsius-Online 收购 Loups-Garous En Ligne",
     "studio.t2017": "Celsius-Online 收购 Kobojo 与 Ouat Entertainment",
     "studio.t2016": "推出 Tropical Wars 与 Celsius Heroes",

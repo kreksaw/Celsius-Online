@@ -4,9 +4,9 @@
   --surface: #ffffff;
   --text: #1a1814;
   --text-muted: #5c574f;
-  --accent: #c45c26;
-  --accent-dark: #9a4518;
-  --accent-soft: rgba(196, 92, 38, 0.12);
+  --accent: #4a7c59;
+  --accent-dark: #355a40;
+  --accent-soft: rgba(74, 124, 89, 0.12);
   --border: rgba(26, 24, 20, 0.1);
   --shadow: 0 24px 60px rgba(26, 24, 20, 0.08);
   --radius: 16px;
@@ -158,8 +158,7 @@ p {
   inset: 0 0 auto;
   z-index: 100;
   height: var(--header-h);
-  background: rgba(250, 249, 247, 0.92);
-  backdrop-filter: blur(12px);
+  background: #ffffff;
   border-bottom: 1px solid transparent;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
@@ -180,6 +179,8 @@ p {
   font-family: var(--font-display);
   font-size: 1.375rem;
   font-weight: 700;
+  display: inline-flex;
+  align-items: center;
 }
 
 .logo span {
@@ -194,6 +195,25 @@ p {
 .logo-b2b {
   font-size: 1.125rem;
   line-height: 1.25;
+}
+
+.logo-img img {
+  display: block;
+  height: 56px;
+  width: auto;
+}
+
+.logo-img-footer img {
+  height: 50px;
+}
+
+@media (max-width: 720px) {
+  .logo-img img {
+    height: 40px;
+  }
+  .logo-img-footer img {
+    height: 36px;
+  }
 }
 
 .nav-links {
@@ -341,7 +361,7 @@ p {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(circle at 80% 20%, rgba(196, 92, 38, 0.18), transparent 45%),
+    radial-gradient(circle at 80% 20%, rgba(74, 124, 89, 0.18), transparent 45%),
     radial-gradient(circle at 10% 80%, rgba(26, 24, 20, 0.06), transparent 40%),
     linear-gradient(180deg, #fff 0%, var(--bg) 100%);
   pointer-events: none;
@@ -508,8 +528,35 @@ p {
   margin-bottom: 0 !important;
 }
 
+body.page-b2b {
+  --accent: #c45c26;
+  --accent-dark: #9a4518;
+  --accent-soft: rgba(196, 92, 38, 0.12);
+}
+
 .page-b2b-main {
   padding-top: calc(var(--header-h) + 3rem);
+  position: relative;
+}
+
+.page-b2b-main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  background:
+    radial-gradient(circle at 80% 20%, rgba(196, 92, 38, 0.18), transparent 45%),
+    radial-gradient(circle at 10% 80%, rgba(26, 24, 20, 0.06), transparent 40%),
+    linear-gradient(180deg, #fff 0%, var(--bg) 100%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.page-b2b-main > .container {
+  position: relative;
+  z-index: 1;
 }
 
 .nav-current {

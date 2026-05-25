@@ -43,7 +43,7 @@ const translations = {
     "projects.coming.tag": "Cross-platform real-time party game",
     "projects.coming.hook":
       "Cross-platform real-time party game blending social deduction, investigation, and hidden-identity gameplay for 8 to 10 players.",
-    "projects.coming.stats": "Cross-platform real-time Unity-based client for PC and mobile",
+    "projects.coming.stats": "Cross-platform real-time game for PC and mobile platforms",
     "projects.cta": "Access the site",
     "studio.eyebrow": "The studio",
     "studio.heading": "Timeline",
@@ -52,9 +52,9 @@ const translations = {
     "studio.t2023":
       'Celsius-Online joins the <a href="https://plugindigital.com/" target="_blank" rel="noopener noreferrer">Plug In Digital</a> group. A leading French publisher and digital distributor of indie games on PC, consoles and mobile.',
     "studio.t2021a": "Development of Master Chef: Let's Cook for Apple Arcade",
-    "studio.t2021b": "The Celsius-Online team grows to over 50 enthusiasts",
     "studio.t2020": "Development of an HTML5 version of Mutants: Genetic Gladiators to replace the Flash version",
-    "studio.t2019": "Celsius-Online acquires the studio 'Vertical'",
+    "studio.t2019":
+      'Celsius-Online acquires the studio <span class="text-accent">Vertical</span>. Founded in Lille in 2012, it rose to prominence in 2016 with Tropical Wars, published by Tilting Point and heavily featured by Apple at launch.',
     "studio.t2018": "Celsius-Online acquires Loups-Garous En Ligne",
     "studio.t2017": "Celsius-Online acquires Kobojo and Ouat Entertainment",
     "studio.t2016": "Launch of Tropical Wars and Celsius Heroes",
@@ -188,7 +188,7 @@ const translations = {
     "projects.coming.tag": "Party game multi-plateforme en temps réel",
     "projects.coming.hook":
       "Un party game multi-plateforme en temps réel, mêlant déduction sociale, enquête et identités cachées, pour 8 à 10 joueurs.",
-    "projects.coming.stats": "Client Unity multi-plateforme en temps réel pour PC et mobile",
+    "projects.coming.stats": "Jeu multi-plateforme en temps réel pour PC et mobile",
     "projects.cta": "Accéder au site",
     "studio.eyebrow": "Le studio",
     "studio.heading": "Chronologie",
@@ -197,9 +197,9 @@ const translations = {
     "studio.t2023":
       'Celsius-Online rejoint le groupe <a href="https://plugindigital.com/" target="_blank" rel="noopener noreferrer">Plug In Digital</a>. Éditeur et distributeur français de référence pour les jeux indépendants sur PC, consoles et mobile.',
     "studio.t2021a": "Développement de Master Chef: Let's Cook pour Apple Arcade",
-    "studio.t2021b": "L'équipe Celsius-Online dépasse les 50 passionnés",
     "studio.t2020": "Développement d'une version HTML5 de Mutants: Genetic Gladiators en remplacement de la version Flash",
-    "studio.t2019": "Celsius-Online rachète le studio Vertical",
+    "studio.t2019":
+      'Celsius-Online rachète le studio <span class="text-accent">Vertical</span>. Créé à Lille en 2012, il s\'est notamment fait connaître en 2016 avec Tropical Wars, édité par Tilting Point et largement mis en avant par Apple lors de sa sortie.',
     "studio.t2018": "Celsius-Online rachète Loups-Garous En Ligne",
     "studio.t2017": "Celsius-Online rachète Kobojo et Ouat Entertainment",
     "studio.t2016": "Lancement de Tropical Wars et Celsius Heroes",
@@ -418,7 +418,7 @@ navLinks.querySelectorAll("a").forEach((link) => {
   });
 });
 
-document.querySelectorAll('.logo[href="#home"]').forEach((link) => {
+document.querySelectorAll('a.logo[href="#home"]').forEach((link) => {
   link.addEventListener("click", (event) => {
     event.preventDefault();
     window.scrollTo({ top: 0, behavior: "smooth" });

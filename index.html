@@ -13,7 +13,9 @@
 <body>
   <header class="header">
     <nav class="nav container">
-      <a class="logo" href="#home">Celsius<span>-Online</span></a>
+      <a class="logo logo-img" href="#home" aria-label="Celsius-Online">
+        <img src="img/celsius-online-logo.png" alt="Celsius-Online" />
+      </a>
       <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
         <span></span>
         <span></span>
@@ -199,16 +201,12 @@
             <p data-i18n="studio.t2021a">Development of Master Chef: Let's Cook for Apple Arcade</p>
           </li>
           <li class="timeline-item">
-            <time datetime="2021">2021</time>
-            <p data-i18n="studio.t2021b">The Celsius-Online team grows to over 50 enthusiasts</p>
-          </li>
-          <li class="timeline-item">
             <time datetime="2020">2020</time>
             <p data-i18n="studio.t2020">Development of an HTML5 version of Mutants: Genetic Gladiators to replace the Flash version</p>
           </li>
           <li class="timeline-item">
             <time datetime="2019">2019</time>
-            <p data-i18n="studio.t2019">Celsius-Online acquires the studio 'Vertical'</p>
+            <p data-i18n-html="studio.t2019"></p>
           </li>
           <li class="timeline-item">
             <time datetime="2018">2018</time>
@@ -245,7 +243,9 @@
 
   <footer class="footer">
     <div class="container footer-inner">
-      <a class="logo" href="#home">Celsius<span>-Online</span></a>
+      <a class="logo logo-img logo-img-footer" href="#home" aria-label="Celsius-Online">
+        <img src="img/celsius-online-logo.png" alt="Celsius-Online" />
+      </a>
       <p class="footer-copy">&copy; 2004–2026 Celsius-Online</p>
       <a class="footer-email" href="mailto:contact@celsius-online.com">contact@celsius-online.com</a>
     </div>
